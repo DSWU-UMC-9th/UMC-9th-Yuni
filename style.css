@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.todo-container{
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.todo-container__header{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.todo-container__form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-container__input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.todo-container__button{
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-container__button:hover{
+    background: #218838;
+}
+.render-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.render-container__title{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.render-container__section{
+    text-align: left;
+    width: 100%;
+}
+
+.render-container__title{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.render-container__list{
+    list-style: none;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.render-container__item{
+    background: #f9f9f9;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.render-container__item text{
+    flex: 1;
+}
+
+.render-container__item button{
+    border: none;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 6px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.render-container__item button:hover{
+    background: #c82333;
+}
