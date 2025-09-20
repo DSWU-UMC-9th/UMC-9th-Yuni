@@ -1,7 +1,8 @@
 const todoInput = document.getElementById('todo-input') as HTMLInputElement;
-const todoform = document.getElementById('todo-form') as HTMLFormElement;
+const todoForm = document.getElementById('todo-form') as HTMLFormElement;
 const todoList = document.getElementById('todo-list') as HTMLUListElement;
-const donelist = document.getElementById('done-list') as HTMLUListElement;
+const doneList = document.getElementById('done-list') as HTMLUListElement;
+
 
 type Todo = {
     id: number;
