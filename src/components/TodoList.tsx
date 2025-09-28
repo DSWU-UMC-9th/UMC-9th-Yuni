@@ -4,7 +4,7 @@ interface TodoListProps {
     title: string;
     todos?: TTodo[];
     buttonLabel: string;
-    buttoncolor: string;
+    buttonColor: string;
     onClick: (todo: TTodo) => void;
 }
 
