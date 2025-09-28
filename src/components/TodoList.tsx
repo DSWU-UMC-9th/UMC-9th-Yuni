@@ -2,7 +2,7 @@ import type { TTodo } from "../types/todo";
 
 interface TodoListProps {
     title: string;
-    todos?: TTodo[];
+    todos: TTodo[];
     buttonLabel: string;
     buttonColor: string;
     onClick: (todo: TTodo) => void;
